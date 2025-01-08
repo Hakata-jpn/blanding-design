@@ -6,7 +6,7 @@ description: Created new tablet UI prototypes, user flows, and animations for Ke
 # Will be used on the thumbnail and main image.
 heroImg: "/#"
 heroImgAlt: "Product photo of the K4500 brewer"
-pubDate: "Jan 10 2024"
+pubDate: "Jan 10 2023"
 
 # What skills did you use in this project?
 tags:
