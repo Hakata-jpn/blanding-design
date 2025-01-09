@@ -4,9 +4,9 @@ metaDescription: Updated user flows and animations for Keurig's flagship commerc
 description: Created new tablet UI prototypes, user flows, and animations for Keurig's K4500 commercial brewer. Tested and launched changes to the smart brewer that allow users to select and brew cold beverages with the K4500.
 
 # Will be used on the thumbnail and main image.
-heroImg: "/#"
+heroImg: "../src/img/K4500/k4500-thumbnail.jpeg"
 heroImgAlt: "Product photo of the K4500 brewer"
-pubDate: "Jan 10 2023"
+pubDate: "Jan 10 2024"
 
 # What skills did you use in this project?
 tags:
@@ -14,7 +14,7 @@ tags:
   - UX Research
   - User Flows
   - A/B Testing
-  - Adobe After Effects
+  - Adobe After Effects:w:w
   - UserTesting
 
 # What did you learn in the process of completing this project?
