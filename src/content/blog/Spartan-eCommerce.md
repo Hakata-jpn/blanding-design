@@ -7,7 +7,7 @@ description: Used a previously developed UX Assessment from a lead UX Designer t
 attribution: "Image by juicy_fish on Freepik"
 
 # Will be used on the thumbnail and main image.
-heroImg: "../#"
+heroImg: "/src/content/img/Spartan/mockup-ecommerce.png"
 heroImgAlt: "low-fidelity mockup of educational non-profit"
 
 # What skills did you use in this project?
@@ -43,11 +43,11 @@ In the summer of 2022, the design team at Adage developed a UX site assessment o
 5. Product Category filters
 6. Homepage
 
-![A Figma file with screenshots of the Product Listing Page, Homepage, How to Buy Page, and Product Detail Page](../#)
+![A Figma file with screenshots of the Product Listing Page, Homepage, How to Buy Page, and Product Detail Page](/src/content/img/Spartan/built-pages.png)
 
 The overall work was completed using Figma, with complex interactions wireframed via Axure. While my Senior UX Designer managed and presented the pages I was building, I designed and delivered high-fidelity wireframes to the client. My focus was on updating the heuristics of their Product Detail Pages and Product Listing Pages, as well as demonstrating updates to the UX Architecture through the wireframes. 
 
 
-![Chemical cleaner product name, with the product category clearly emphasized](../#)
+![Chemical cleaner product name, with the product category clearly emphasized](/src/content/img/Spartan/product-title.png)
 
 The nature of the work led to client presentations every two weeks to discuss the progress of the wireframes and the site architecture testing. We had a tree testing process set up for the client, but were not able to proceed due to budget and timeline constraints.

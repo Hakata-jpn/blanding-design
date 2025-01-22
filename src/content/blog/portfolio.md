@@ -5,7 +5,7 @@ metaDescription: Redesigning portfolio website to demonstrate learned skills
 description: Overhaul current portfolio to a more inviting aesthetic using skills learned from previous jobs. Dev implementation was handled by myself to learn the handoff process.
 
 # Will be used on the thumbnail and main image.
-heroImg: "../#"
+heroImg: "/src/content/img/Portfolio/desktop-screen.png"
 heroImgAlt: "Desktop screen layout for new portfolio site"
 
 # What skills did you use in this project?
@@ -38,7 +38,7 @@ Since 2021 I've been using the Fernfolio web template as my portfolio site, and 
 
 While it allowed me to focus more on the portfolio content itself, over the years I began to feel like I was outgrowing the template as my skills improved and the site did not. Some aspects of the page were thoughtfully designed but not necessarily built from the ground up to facilitate the showcasing of my previous works. Rating the site layout, here are my thoughts: 
 
-![Previous site design, a desktop size screenshot of the homepage](../#)
+![Previous site design, a desktop size screenshot of the homepage](/src/content/img/Portfolio/portfolio-screen-old.png)
 > This is an example of the previous template site I used.
 
 #### What I liked:
@@ -60,7 +60,7 @@ The site was developed using a mix of Jekyll and Bootstrap, with additional styl
 
 One interesting consideration that became a difficult constraint throughout the project was the difference between breakpoints in Figma and in Web development. While Auto-layout does make working within moving breakpoints a lot easier, it also took a lot more effort to ensure a consistent design across multiple screen sizes and browsers. One side effect of this was a design pattern that was unable to translate across devices, a div sandwiched between and on top of two divs in the HTML, as spacing the text blurb between the two colored areas was not something I could make consistent across all screen sizes.
 
-![Comparison of Figma Design and HTML code on live site, stacked divs missing from the HTML document](../#)
+![Comparison of Figma Design and HTML code on live site, stacked divs missing from the HTML document](/src/content/img/Portfolio/comparison-web.png)
 > This might have taken three hours of my time and numerous tries, but I learned a lot about document flow and positioning so it was well worth it.
 
 Being a static site generator, Jekyll made the process of creating the portfolio contents rather simple and allowed for component creation in a manner similar to but simpler than React. Structurally, all of my project articles are written in markdown and placed in a designated project folder which is built into HTML pages when I commit my changes to GitHub and Netlify builds the site. It also allowed a smooth transfer of my old markdown files from my old portfolio site to this one, with some adjustments made to the front matter to improve the templating of the site. This allowed for some modularity in the project article, including:
@@ -70,8 +70,8 @@ Being a static site generator, Jekyll made the process of creating the portfolio
 - Project tags
 - A "What I learned" section built into the page structure
 
-And the document looks like the image below, with the body content of the page outside of the front matter for easy writing.
-![Example of markdown document, with front matter ](../#)
+And the document looks like the image below, with the body content of the page outside of the front matter for easy writing. Note the difference in color between the front matter in green/red as opposed to the white body text of the markdown contents.
+![Example of markdown document, with front matter](/src/content/img/Portfolio/markdown-example.png)
 
 
 The front matter was incredibly helpful for calling data across the site, as every part of the site could access any of the articles I'd written in a procedural manner. This allows me the ease of mind to simply write new content in Markdown and commit it to the site without worrying about having to adjust the code to highlight new content. While this did exist in my previous site, the biggest difference was that I knew the structure because I had built it myself and could change the design if desired.
