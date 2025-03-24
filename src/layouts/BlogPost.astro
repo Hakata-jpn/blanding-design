@@ -45,6 +45,7 @@ const { title, description, pubDate, updatedDate, heroImg, heroImgAlt, tags, lea
         background-color: #000;
         padding: .75em;
         margin: .25em .5em;
+        margin-left: 0em;
         border-radius: .25em;
       }
 
@@ -62,14 +63,18 @@ const { title, description, pubDate, updatedDate, heroImg, heroImgAlt, tags, lea
 			.title {
 				margin-bottom: 1em;
 				padding: 1em 0;
-				text-align: center;
+				text-align: left;
 				line-height: 1;
 			}
-			.title h1 {
+			.title .date {
 				margin: 0 0 0.5em 0;
-			}
+      }
+      .title ul {
+        padding-left: 0;
+        padding-right:0;
+      }
 			.date {
-				margin-bottom: 0.5em;
+				padding-bottom: 1.5rem;
 				color: rgb(var(--gray));
 			}
 			.last-updated-on {
@@ -87,7 +92,8 @@ const { title, description, pubDate, updatedDate, heroImg, heroImgAlt, tags, lea
 				</div>
 				<div class="prose">
 					<div class="title">
-						<div class="date">
+            <h1>{title}</h1>
+            <div class="date">
 							<FormattedDate date={pubDate} />
 							{
 								updatedDate && (
@@ -97,7 +103,6 @@ const { title, description, pubDate, updatedDate, heroImg, heroImgAlt, tags, lea
 								)
 							}
 						</div>
-						<h1>{title}</h1>
 						<hr />
             <!-- Front matter goes here! -->
               <section class="prose">

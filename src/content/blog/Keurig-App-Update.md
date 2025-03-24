@@ -14,7 +14,7 @@ tags:
   - UX Research
   - User Flows
   - A/B Testing
-  - Adobe After Effects:w:w
+  - Adobe After Effects
   - UserTesting
 
 # What did you learn in the process of completing this project?
