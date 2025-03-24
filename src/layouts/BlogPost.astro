@@ -32,46 +32,56 @@ const { title, description, pubDate, updatedDate, heroImg, heroImgAlt, tags, lea
       .description {
         text-align: left;
       }
-
-      #tags.ul {
-        display: inline-block;
-        margin: 1em;
-      }
-
-      #tags li {
-        list-style-type: none;
-        display: inline-block;
-        color: #fff;
-        background-color: #000;
-        padding: .75em;
-        margin: .25em .5em;
-        margin-left: 0em;
-        border-radius: .25em;
-      }
-
-      #learned li {
-        text-align: left;/
-      }
-
 			.prose {
 				width: 720px;
 				max-width: calc(100% - 2em);
 				margin: auto;
 				padding: 1em;
-				color: rgb(var(--gray-dark));
-			}
+        color: rgb(var(--gray-dark));
+      }
+      section.prose {
+        padding: 1em 0em;
+        margin: 0em;
+      }
 			.title {
 				margin-bottom: 1em;
 				padding: 1em 0;
 				text-align: left;
-				line-height: 1;
-			}
+				line-height: 1.7;
+      }
+      .title h1 {
+        font-size: 2.25em;
+      }
+      .title h2 {
+        font-size: 1.5em;
+      }
 			.title .date {
 				margin: 0 0 0.5em 0;
       }
       .title ul {
-        padding-left: 0;
-        padding-right:0;
+        padding: 0em;
+        margin-bottom: 2em;
+      }
+      #tags.ul {
+        display: inline-block;
+        margin-bottom: 2em;
+      }
+      #tags li {
+        list-style-type: none;
+        display: inline-block;
+        color: #fff;
+        background-color: #000;
+        padding: .5em 1em;
+        margin: .25em .5em;
+        margin-left: 0em;
+        border-radius: 3em;
+      }
+      ul#learned {
+        padding: 0em 1em;
+        margin-bottom: 1em;
+      }
+      #learned li {
+        text-align: left;
       }
 			.date {
 				padding-bottom: 1.5rem;
