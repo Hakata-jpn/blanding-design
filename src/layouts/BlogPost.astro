@@ -28,6 +28,30 @@ const { title, description, pubDate, updatedDate, heroImg, heroImgAlt, tags, lea
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
 			}
+
+      .description {
+        text-align: left;
+      }
+
+      #tags.ul {
+        display: inline-block;
+        margin: 1em;
+      }
+
+      #tags li {
+        list-style-type: none;
+        display: inline-block;
+        color: #fff;
+        background-color: #000;
+        padding: .75em;
+        margin: .25em .5em;
+        border-radius: .25em;
+      }
+
+      #learned li {
+        text-align: left;/
+      }
+
 			.prose {
 				width: 720px;
 				max-width: calc(100% - 2em);
@@ -76,8 +100,24 @@ const { title, description, pubDate, updatedDate, heroImg, heroImgAlt, tags, lea
 						<h1>{title}</h1>
 						<hr />
             <!-- Front matter goes here! -->
-              <p>{description}<p>
+              <section class="prose">
+                <h2>Summary</h2>
+                <p class="description">{description}<p>
 
+                <h2>Skilled Used in Project</h2>
+                <ul id="tags">
+                 {tags.map((tags) => (
+                    <li>{tags}</li>
+                  ))}
+                </ul>
+                
+                <h2>What I Learned</h2>
+                <ul id="learned">
+                 {learned.map((learned) => (
+                  <li>{learned}</li>
+                 ))}
+                </ul>
+              </section>
             <hr />
 					</div>
 					<slot />
