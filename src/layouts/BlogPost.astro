@@ -7,7 +7,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImg, heroImgAlt, tags, learned } = Astro.props;
 ---
 
 <html lang="en">
@@ -28,24 +28,63 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				border-radius: 12px;
 				box-shadow: var(--box-shadow);
 			}
+
+      .description {
+        text-align: left;
+      }
 			.prose {
 				width: 720px;
 				max-width: calc(100% - 2em);
 				margin: auto;
 				padding: 1em;
-				color: rgb(var(--gray-dark));
-			}
+        color: rgb(var(--gray-dark));
+      }
+      section.prose {
+        padding: 1em 0em;
+        margin: 0em;
+      }
 			.title {
 				margin-bottom: 1em;
 				padding: 1em 0;
-				text-align: center;
-				line-height: 1;
-			}
-			.title h1 {
+				text-align: left;
+				line-height: 1.7;
+      }
+      .title h1 {
+        font-size: 2.25em;
+      }
+      .title h2 {
+        font-size: 1.5em;
+      }
+			.title .date {
 				margin: 0 0 0.5em 0;
-			}
+      }
+      .title ul {
+        padding: 0em;
+        margin-bottom: 2em;
+      }
+      #tags.ul {
+        display: inline-block;
+        margin-bottom: 2em;
+      }
+      #tags li {
+        list-style-type: none;
+        display: inline-block;
+        color: #fff;
+        background-color: #000;
+        padding: .5em 1em;
+        margin: .25em .5em;
+        margin-left: 0em;
+        border-radius: 3em;
+      }
+      ul#learned {
+        padding: 0em 1em;
+        margin-bottom: 1em;
+      }
+      #learned li {
+        text-align: left;
+      }
 			.date {
-				margin-bottom: 0.5em;
+				padding-bottom: 1.5rem;
 				color: rgb(var(--gray));
 			}
 			.last-updated-on {
@@ -59,11 +98,12 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<main>
 			<article>
 				<div class="hero-image">
-					{heroImage && <img width={1020} height={510} src={heroImage} alt="" />}
+					{heroImg && <img width={1020} height={510} src={heroImg} alt={heroImgAlt} />}
 				</div>
 				<div class="prose">
 					<div class="title">
-						<div class="date">
+            <h1>{title}</h1>
+            <div class="date">
 							<FormattedDate date={pubDate} />
 							{
 								updatedDate && (
@@ -73,8 +113,27 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 								)
 							}
 						</div>
-						<h1>{title}</h1>
 						<hr />
+            <!-- Front matter goes here! -->
+              <section class="prose">
+                <h2>Summary</h2>
+                <p class="description">{description}<p>
+
+                <h2>Skilled Used in Project</h2>
+                <ul id="tags">
+                 {tags.map((tags) => (
+                    <li>{tags}</li>
+                  ))}
+                </ul>
+                
+                <h2>What I Learned</h2>
+                <ul id="learned">
+                 {learned.map((learned) => (
+                  <li>{learned}</li>
+                 ))}
+                </ul>
+              </section>
+            <hr />
 					</div>
 					<slot />
 				</div>
