@@ -21,11 +21,11 @@ tags:
 
 # What did you learn in the process of completing this project?
 learned:
-- How to perform a UX Audit
-- How to present complex project proposals to stakeholders within a tight deadline, including the company owner
-- The importance of site speed as a metric for User Experience
-- Collaboration with developers to understand resource and skill limitations within a project proposal
-- ReactJS and Tailwind CSS as platforms for developing a new website
+- Completed my first UX Audit 
+- Presented complex project proposals to stakeholders within a tight deadline, including the company owner
+- Highlighted the importance of site speed as a metric for User Experience
+- Collaborated with developers to understand resource and skill limitations within a project proposal
+- Trialed the use of ReactJS and Tailwind CSS as platforms for developing a new website
 ---
 
 ### In Depth

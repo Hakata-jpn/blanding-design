@@ -17,10 +17,9 @@ tags:
 
 # What did you learn in the process of completing this project?
 learned:
-  - How to create components for a design system
-  - Scaling components between various screen sizes and breakpoints
-  - Contributing to a design system
-  - Building webpage templates for use in a CMS
+  - Contributed to the NACD Design System overhaul under a senior UX Designer
+  - Scaled complex components for various screen sizes and breakpoints
+  - Built webpage templates for use in a CMS
 ---
 
 ### In Depth

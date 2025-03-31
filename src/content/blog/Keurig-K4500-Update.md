@@ -14,15 +14,14 @@ tags:
   - UX Research
   - User Flows
   - A/B Testing
-  - Adobe After Effects:w:w
+  - Adobe After Effects
   - UserTesting
 
 # What did you learn in the process of completing this project?
 learned:
-  - How to design UI for tablet-sized screens, especially those are not standard to app/web design
-  - Intersetion between digital UX/UI and physical product design
-  - How to hand off animations to developers
-  - How to do user testing on a commercial product
+  -  Drafted and implemented user testing with Keurig's Commercial brewer UI to identify key user flow pain points
+  - Completed tablet-sized UI for Keurig's Commercial Smart Brewer UI based on user research
+  - Devised a handoff process for brewer UI animations
 ---
 
 ### In Depth

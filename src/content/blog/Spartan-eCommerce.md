@@ -21,11 +21,9 @@ tags:
 
 # What did you learn in the process of completing this project?
 learned:
-  - How to use a design assessment to make design updates to a website
-  - Complex page interactions with via Axure RP
-  - How UX Architecture contributes to the site design process, and how UI facilitates user navigation
-  - How to present designs directly to stakeholders
-  - Importance of Figma's Component and Auto-layout features in a large-scale UI project
+  - Completed a design assessment for client website
+  - Created Complex page interactions with via Axure RP
+  - Contributed to the overhaul of the UX Architecture for Spartan Chemical's wholesale website
 ---
 
 ### In Depth

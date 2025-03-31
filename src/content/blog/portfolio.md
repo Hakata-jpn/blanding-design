@@ -18,13 +18,10 @@ tags:
 
 # What did you learn in the process of completing this project?
 learned:
-- The direct link between design work in Figma and web dev
-- How to translate columns on wireframes to bootstrap columns
-- What Sass does to augment CSS, and how to scope for styles within Sass files
-- How to deploy a site and use markdown to generate new articles
-- How to evaluate a site and overhaul its visuals + user experience
-- Flexbox and how that works within Auto-Layout
-- How JS interacts with objects in the DOM
+- Practiced handoff between Figma designs and developer code 
+- Scoped Figma design styles using Autolayou, Sass, and flexbox
+- Deployed a Static-Site Generator (SSG) using Markdown files 
+- Evaluated and iterated upon previous portfolio template with custom design
 ---
 
 #### Project Links

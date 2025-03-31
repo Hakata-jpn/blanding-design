@@ -10,12 +10,12 @@ pubDate: "Jun 13 2024"
 
 # What skills did you use in this project?
 tags:
-  - Tablet UI Design
+  - Mobile Prototyping
   - UX Research
-  - User Flows
   - A/B Testing
-  - Adobe After Effects:w:w
-  - UserTesting
+  - User Flows
+  - Mobile App Design
+  - Figma
 
 # What did you learn in the process of completing this project?
 learned:
