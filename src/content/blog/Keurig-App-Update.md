@@ -1,7 +1,7 @@
 ---
 title: Keurig App - 2024 UI Updates
 metaDescription: Updates to the existing Keurig UI based on the existing design system and UX Research
-description: Recreated Screens and critical UI components for the Shop screens of the Keurig Mobile App, based on UX research
+description: Recreated screens and critical UI components for the Shop screens of the Keurig Mobile App, based on UX research
 
 # Will be used on the thumbnail and main image.
 heroImg: "/src/content/img/K4500/k4500-thumbnail.jpeg"
