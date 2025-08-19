@@ -3,12 +3,6 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-
-/* Local Time TS script*/
-let utcDate = new Date('2024-10-30T12:00:00Z');
-let localDate = utcDate.toLocaleString();
-console.log(localDate);
-
 ---
 
 <!doctype html>
@@ -19,13 +13,16 @@ console.log(localDate);
 	<body>
 		<Header />
 		<main>
-			<h1>Hi there!</h1>
+      <h1>Ren Blanding</h1>
+      <h2>Product-Focused UI/UX Designer</h2>
+      <h2>@ Keurig Dr Pepper</h2>
+      <h2>3+ years of experience</h2>
+      <h2>Based in Chicago, IL</h2>
 			<p>
-      I’m Ren Blanding, UX/UI Designer for Keurig's product team @ Keurig Dr Pepper. My specializations are in UI Design for physical products as well as design systems for e-commerce sites and apps. When it comes to design, my passion is delivering insights and work that put people first, for end users and my teammates. I also know a little front-end but mostly just to better understand my developer peers!
-      </p>
+        Currently designing user interfaces and creating user flows for Keurig's lineup of commercial and consumer smart coffee brewers. Formerly worked on creating Keurig's Design System, as well as creating components and maintaining existing design systems for the American Academy of Pediatrics and National Association of Corporate Directors.</p>
+      <p>When I'm not at work, I'm studying Japanese, climbing, or biking across town.</p>
 
-      <h2>Who have I worked for?</h2>
-      <p>Clients have included:</p>
+      <h3>Previous Clients</h3>
       <ul>
         <li>Keurig Dr Pepper</li>
         <li>American Academy of Pediatrics</li>
@@ -33,7 +30,7 @@ console.log(localDate);
         <li>Spartan Chemical</li>
       </ul>
 
-      <h2>Let's keep in touch!</h2>
+      <h3>Let's keep in touch!</h2>
       <p>You can reach me anytime between normal business hours in the Central Time Zone. I am available through the following: </p>
 			<ul>
         <li>Email - <a href="#">hello@blandingdesign.com</a></li>
@@ -41,7 +38,7 @@ console.log(localDate);
         <li>GitHub - <a href="#">hakata-jpn</a></li>
       </ul>
 
-        <!-- TODO: Add time zone PLEASE 
+        <!-- TODO: Add time zone PLEASE, using MDN's Temporal 
       <p>
         It is currently () in Chicago right now. 
       </p>  -->
