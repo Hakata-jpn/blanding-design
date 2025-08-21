@@ -12,10 +12,37 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
   <!-- Styles for the calling card section -->
   <style>
-    section {
+    #callingCard {
       background: var(--text);
       color: var(--background);
       padding: 1em;
+      margin-bottom: 3em;
+    }
+
+    #bodyText section h3 {
+      background: var(--background-contrast);
+      padding: .5em;
+    }
+
+    #aboutMe h3 {
+      color: var(--deco-pink);
+    }
+
+    #previousClients h3 {
+      color: var(--deco-purple);
+    }
+
+    #letsTalk h3 {
+      color: var(--deco-green);
+    }
+
+    section p {
+      padding-left: .5em;
+    }
+
+    #previousClients ul {
+      list-style-type: none;
+      padding-left: 1em;
     }
   </style>
   
@@ -30,28 +57,32 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
         <button>View My Projects</button>
       </section>
 
-			<p>
-      Currently designing user interfaces and user flows for Keurig’s Lineup of commercial and consumer smart brewers. Formerly led design system creation, with previous design system experience with the American Academy of Pediatrics and National Association of Corporate Directors. Experienced working closely with developers and designers. 
-      </p>
-      <p>
-        When I’m not at work I volunteer, climb, and work on my homelab (welcome to my IDE theme!).
-      </p>
+      <section id="bodyText">
+        <section id="aboutMe">
+          <h3>About Me</h3>
+          <p>Currently designing user interfaces and user flows for Keurig’s Lineup of commercial and consumer smart brewers. Formerly led design system creation, with previous design system experience with the American Academy of Pediatrics and National Association of Corporate Directors. Experienced working closely with developers and designers.</p>
+        <p>When I’m not at work I volunteer, climb, and work on my homelab (welcome to my IDE theme!).</p>
+        </section>
 
-      <h3>Previous Clients</h3>
-      <ul>
-        <li>American Academy of Pediatrics (AAP)</li>
-        <li>National Association of Corporate Directors (NACD)</li>
-        <li>Spartan Chemical</li>
-      </ul>
-
-      <h2>Let's Talk!</h2>
-      <p>You can reach me anytime between normal business hours in the Central Time Zone. I am available through the following: </p>
-			<ul>
-        <li>Email - <a href="mailto:hello@blandingdesign.com">hello@blandingdesign.com</a></li>
-        <li>LinkedIn - <a href="https://linkedin.com/blandingr">blandingr</a></li>
-        <li>GitHub - <a href="https://github.com/hakata-jpn">hakata-jpn</a></li>
-      </ul>
-
+        <section id="previousClients">
+          <h3>Previous Clients</h3>
+          <ul>
+            <li>American Academy of Pediatrics (AAP)</li>
+            <li>National Association of Corporate Directors (NACD)</li>
+            <li>Spartan Chemical</li>
+          </ul>
+        </section>
+        
+        <section id="letsTalk">
+          <h3>Let's Talk!</h3>
+          <p>You can reach me anytime between normal business hours in the Central Time Zone. I am available through the following: </p>
+          <ul>
+            <li>Email - <a href="mailto:hello@blandingdesign.com">hello@blandingdesign.com</a></li>
+            <li>LinkedIn - <a href="https://linkedin.com/blandingr">blandingr</a></li>
+            <li>GitHub - <a href="https://github.com/hakata-jpn">hakata-jpn</a></li>
+          </ul>
+        </section>
+      </section>
         <!-- TODO: Add time zone PLEASE, using MDN's Temporal 
       <p>
         It is currently () in Chicago right now. 
