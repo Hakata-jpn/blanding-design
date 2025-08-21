@@ -50,6 +50,7 @@
 
 body {
 	font-family: 'Fira Code', sans-serif;
+  font-weight: 400;
   color: var(--text);
 	margin: 0;
 	padding: 0;
@@ -78,24 +79,6 @@ h6 {
 	margin: 0 0 0.5rem 0;
   font-family: 'PF Videotext';
 	line-height: 1.3;
-}
-h1 {
-	font-size: 3.375rem;
-}
-h2 {
-	font-size: 2.75rem;
-}
-h3 {
-	font-size: var(--headingL);
-}
-h4 {
-	font-size: 1.75rem;
-}
-h5 {
-	font-size: 1.25rem;
-}
-h6 {
-  font-size: 1.125rem;
 }
 
 
