@@ -2,12 +2,6 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-
-/* Local Time TS script*/
-let utcDate = new Date('2024-10-30T12:00:00Z');
-let localDate = utcDate.toLocaleString();
-console.log(localDate);
-
 ---
 
 <!doctype html>
@@ -48,7 +42,7 @@ console.log(localDate);
         <li>GitHub - <a href="https://github.com/hakata-jpn">hakata-jpn</a></li>
       </ul>
 
-        <!-- TODO: Add time zone PLEASE 
+        <!-- TODO: Add time zone PLEASE, using MDN's Temporal 
       <p>
         It is currently () in Chicago right now. 
       </p>  -->
